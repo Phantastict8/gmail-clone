@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import SettingsIcon from '@material-ui/icons/Settings';
 import AppsIcon from '@material-ui/icons/Apps';
@@ -59,19 +58,17 @@ const LogoWrapper = styled.div`
 const Menu = styled.div`
     display: grid;
     place-items: center;
-`
+`;
 
 const Logo = styled.div`
     display: flex;
     height: 45px;
 `;
 
-const SearchWrapper = styled.div`
-
-`;
+const SearchWrapper = styled.div``;
 
 const SearchBarWrapper = styled.div`
-    background-color:#f1f3f4;
+    background-color: #f1f3f4;
     width: 100%;
     max-width: 750px;
     display: grid;
@@ -98,10 +95,11 @@ const SearchBarWrapper = styled.div`
 `;
 
 const IconsWrapper = styled.div`
+    margin-left: 8 px;
     display: grid;
     grid-template-columns: repeat(4, auto);
 
-    .MuiSvgIcon-root{
+    .MuiSvgIcon-root {
         color: #5f6368;
     }
 `;
